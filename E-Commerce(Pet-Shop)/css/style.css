@@ -1,0 +1,114 @@
+.background {
+  background: url(../images/side-view-dog.jpg);
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 10%;
+}
+a {
+  text-decoration: none !important;
+}
+li {
+  list-style: none;
+}
+textarea {
+  resize: none !important;
+}
+.navbar-nav li {
+  padding: 0 5px;
+}
+
+.bg-input {
+  background-color: #f4f4f4;
+}
+.border-color {
+  border-color: #dfdfdf;
+}
+input:focus {
+  outline: none;
+  border: none;
+}
+.dark-bg {
+  background-color: #101828;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #131c2f !important;
+  color: #fff !important;
+}
+.nav-link {
+  color: #000 !important;
+}
+
+.shop-img {
+  height: 25vw !important;
+}
+
+.services-img {
+  height: 15vw;
+}
+.services-img-lg {
+  height: 32vw;
+}
+.p-style {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.w-90 {
+  width: 90%;
+}
+.fs-80 {
+  font-size: 80px;
+  cursor: pointer;
+}
+.img-postion {
+  position: absolute;
+  top: 60%;
+  left: -15%;
+  border: 15px solid #fff;
+  border-radius: 15px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.318);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myModal {
+  display: none;
+}
+.modal-active {
+  display: block !important;
+}
+.img-border {
+  border-radius: 15px;
+}
+.card {
+  border: 0 !important;
+}
+
+/*Hovers*/
+.btn-dark:hover {
+  background: transparent !important;
+  color: #000 !important;
+}
+
+.overlay-video {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.318);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.video:hover .overlay-video {
+  display: block;
+}

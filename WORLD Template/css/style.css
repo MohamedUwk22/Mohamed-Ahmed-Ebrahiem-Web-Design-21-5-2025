@@ -278,7 +278,7 @@ h5 {
 }
 
 .trand-card .big-card {
-  width: 45%;
+  width: 48%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   position: relative;
   margin: 20px 0;
@@ -295,7 +295,7 @@ h5 {
 }
 .trand-cards .card {
   display: flex;
-  width: 45%;
+  width: 48%;
 }
 .flex {
   display: flex;
