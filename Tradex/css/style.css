@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif !important;
+}
+a {
+  color: #000 !important;
+}
+li {
+  list-style: none !important;
+}
+.nav-color {
+  background-color: #efecec;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 15px;
+  font-weight: 600;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #0c6ded !important;
+}
+.dropdown-item:hover {
+  color: #0c6ded !important;
+  background-color: transparent !important;
+}
+.slider-img-h {
+  height: 95vh !important;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  background-color: #000000b1;
+  width: 100%;
+  height: 100%;
+}
+.overlay p {
+  max-width: 650px;
+  font-size: 18px;
+  margin: 0 auto 40px;
+}
+.overlay h2 {
+  font-size: 60px;
+  font-weight: 600;
+  margin: 0 auto 30px;
+  text-transform: capitalize;
+}
+.slider-btn a:nth-child(2) button:hover {
+  border: 2px solid #0d6efc !important;
+}
+.carousel-indicators {
+  top: 10% !important;
+  left: 80% !important;
+}
+.carousel .carousel-indicators button {
+  margin-bottom: 18px !important;
+}
+.carousel-indicators [data-bs-target] {
+  border-radius: 0 !important;
+  height: 6px !important;
+  width: 6px !important;
+  background-color: #fff !important;
+  border: 1px solid #fff !important;
+  opacity: 1 !important;
+}
+.carousel-indicators [data-bs-target]:hover {
+  height: 10px !important;
+  width: 10px !important;
+  background-color: transparent !important;
+  margin-left: 0 !important;
+  transition: 0.2s ease;
+}
+
+.carousel-indicators .active {
+  height: 10px !important;
+  width: 10px !important;
+  background-color: transparent !important;
+  margin-left: 0 !important;
+}
+.about-us span::before {
+  width: 70px;
+  height: 2px;
+  background-color: #0c65ed;
+  left: -70px;
+  top: 21px;
+  position: absolute;
+  content: "";
+}
+.about-us span::after {
+  width: 40px;
+  height: 2px;
+  background-color: #0c65ed;
+  left: -40px;
+  top: 15px;
+  position: absolute;
+  content: "";
+}
+.img-h {
+  height: 70vh;
+}
+.about-us h3::before {
+  width: 70px;
+  height: 2px;
+  background-color: #0c65ed;
+  right: -70px;
+  top: 21px;
+  position: absolute;
+  content: "";
+}
+.about-us h3::after {
+  width: 40px;
+  height: 2px;
+  background-color: #0c65ed;
+  right: -40px;
+  top: 15px;
+  position: absolute;
+  content: "";
+}
+.my-icons li:hover h5,
+.my-icons li:hover i {
+  color: #0c65ed;
+}
+.my-icons li h5,
+i {
+  transition: 0.3s ease-in-out;
+}
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
